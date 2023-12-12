@@ -1,6 +1,18 @@
-*{
-  background-color: whitesmoke;
+
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  color: white;
+  background: linear-gradient(45deg, #4158D0, #C850C0, #FFCC70);
+}
+
 
 .Parent{
   width: 80vw;
@@ -34,7 +46,8 @@
   color: black;
   text-decoration: none;
   font-size: large;
-  font-style: oblique;
+  font-style: normal;
+  padding: auto;
   border-radius: 10px;
   border: none;
 }
