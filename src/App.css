@@ -73,8 +73,8 @@ button{
 }
 
 button:hover{
-  background-color: ;
-  color: black;
+  background-color: white
+  color: black; !important
 }
 
 a:hover{
